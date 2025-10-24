@@ -1,0 +1,25 @@
+{
+    "name":  "AppSourceCop all errors",
+    "rules": [
+        {
+            "id": "AS0079",
+            "action": "Error",
+            "justification": "Promoting Error: An affix is required for procedures defined in extension objects."
+        },        
+        {
+            "id": "AS0081",
+            "action": "None",
+            "justification": "Ignore for TestApp: The InternalsVisibleTo setting will expose your internal objects to any extension with the given name, publisher, and ID. Access modifiers are not designed to be used as a security boundary, but for API development."
+        },
+        {
+            "id": "AS0092",
+            "action": "None",
+            "justification": "Ingore: The 'applicationInsightsKey' property must specify the instrumentation key of the Azure Application Insights resource for monitoring operations related to this extension. See https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/telemetry-overview for additional information."
+        },
+        {
+            "id": "AS0098",
+            "action": "Error",
+            "justification": "Promoting Error: An affix is needed."
+        }
+    ]
+}

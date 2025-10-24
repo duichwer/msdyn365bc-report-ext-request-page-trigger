@@ -1,0 +1,40 @@
+{
+    "name": "BCLinterCop all errors",
+    "rules": [
+        {
+            "id": "LC0010",
+            "action": "None",
+            "justification": "Ignore: Cyclomatic complexity, Maintainability index. We try validate a good code structure personally."
+        },
+        {
+            "id": "LC0036",
+            "action": "None",
+            "justification": "Ignore: For fields specifically, the ToolTip must start with the verb 'Specifies'. Good ToolTips can start with other verbs, too."
+        },
+        {
+            "id": "LC0038",
+            "action": "None",
+            "justification": "Ignore: Try to not exceed 200 characters including spaces for ToolTips. Sometimes Toolips require more characters"
+        },
+        {
+            "id": "LC0045",
+            "action": "None",
+            "justification": "Ignore: Zero (0) Enum value should be reserved for Empty Value."
+        },
+        {
+            "id": "LC0047",
+            "action": "None",
+            "justification": "Ignore: Locked Label must have a suffix Tok. "
+        },
+        {
+            "id": "LC0064",
+            "action": "None",
+            "justification": "Ignore:  Use table field ToolTip instead of page field ToolTip."
+        },
+        {
+            "id": "LC0065",
+            "action": "None",
+            "justification": "Ignore:  Parameter 'xxx' must use the 'var' keyword if the publisher parameter is 'var'."
+        }
+    ]
+}

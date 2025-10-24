@@ -1,0 +1,55 @@
+{
+    "name":  "Compiler all errors",
+    "rules": [
+        {
+            "id": "AL0711",
+            "action": "Error",
+            "justification": "Upcoming BC 22 Error: A member of type {0} with name '{1}' is already defined in {2} '{3}' by the extension '{4}'. Duplicate member names are not allowed when defining CueActions."
+        },
+        {
+            "id": "AL0731",
+            "action": "Error",
+            "justification": "Upcoming BC 23 Error: The name '{0}' does not exist in the current context."
+        },
+        {
+            "id": "AL0733",
+            "action": "Error",
+            "justification": "Upcoming BC 23 Error: Access modifier '{0}' is not allowed for member '{1}' in the context of object type '{2}'."
+        },
+        {
+            "id": "AL0743",
+            "action": "Error",
+            "justification": "Upcoming BC 23 Error: The property '{0}' is not valid for the cue action '{1}'."
+        },
+        {
+            "id": "AL0745",
+            "action": "Error",
+            "justification": "Upcoming BC 23 Error: The property '{0}' is not valid for action '{1}' defined in a report request page."
+        },
+        {
+            "id": "AL0751",
+            "action": "Error",
+            "justification": "Upcoming BC 24 Error: Enum values can't be nested. Use '{0}' instead."
+        },
+        {
+            "id": "AL0753",
+            "action": "Error",
+            "justification": "Upcoming BC 24 Error: The name of a dataitem cannot be empty because it can cause runtime errors."
+        },
+        {
+            "id": "AL0758",
+            "action": "Error",
+            "justification": "Upcoming BC 24 Error: The name of {0} '{1}' conflicts with {0} '{2}' defined in {3} '{4}' by the extension '{5}'. Please choose another name for one of them. Otherwise, this might cause runtime issues."
+        },
+        {
+            "id": "AL1025",
+            "action": "Error",
+            "justification": "Invalid XML File"
+        },
+        {
+            "id": "AL1078",
+            "action": "Error",
+            "justification": "Upcoming BC 23 Error: Key vault URL is not a valid Azure key vault URL. A valid key vault URL must use HTTPS and point to the Azure key vault domain."
+        }
+    ]
+}

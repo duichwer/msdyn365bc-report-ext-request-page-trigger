@@ -1,0 +1,83 @@
+{
+  "al.codeAnalyzers": [
+    "${AppSourceCop}",
+    "${CodeCop}",
+    "${PerTenantExtensionCop}",
+    "${UICop}",
+    "${analyzerFolder}BusinessCentral.LinterCop.dll"
+  ],
+  "al.enableCodeActions": true,
+  "al.enableCodeAnalysis": true,
+  "al.incrementalBuild": true,
+  "al.ruleSetPath": "./.vscode/rulesets/ruleset.json",
+  "alOutline.codeActionsOnSave": [
+    "SortProperties",
+    "FormatDocument",
+    "SortPermissions",
+    "SortPermissionSetList",
+    "SortTableFields",
+    "SortVariables",
+    "SortCustomizations"
+  ],
+  "alOutline.codeCleanupActions": [
+    "AddApplicationAreas",
+    "AddDataClassifications",
+    "AddMissingParentheses",
+    "AddObjectCaptions",
+    "AddPageFieldCaptions",
+    "AddTableFieldCaptions",
+    "ConvertObjectIdsToNames",
+    "FixIdentifiersCase",
+    "FixKeywordsCase",
+    "FormatDocument",
+    "LockRemovedFieldCaptions",
+    "MakeFlowFieldsReadOnly",
+    "RemoveEmptyLines",
+    "RemoveEmptySections",
+    "RemoveEmptyTriggers",
+    "RemoveStrSubstNoFromError",
+    "RemoveUnusedVariables",
+    "RemoveWithStatements",
+    "SortCustomizations",
+    "SortPermissions",
+    "SortPermissionSetList",
+    "SortProperties",
+    "SortTableFields",
+    "SortVariables",
+    "TrimTrailingWhitespace"
+  ],
+  "alOutline.defaultAddPageFieldCaptionsSettings": {
+    "setActionsCaptions": true,
+    "setActionGroupsCaptions": true,
+    "setGroupsCaptions": true,
+    "setPartsCaptions": false,
+    "setFieldsCaptions": false,
+    "setLabelsCaptions": false
+  },
+  "alOutline.defaultRemoveEmptyTriggersSettings": {
+    "removeTriggers": true,
+    "removeSubscribers": true,
+    "ignoreComments": false
+  },
+  "alOutline.defaultRemoveUnusedVariablesSettings": {
+    "removeGlobalVariables": true,
+    "removeLocalVariables": true,
+    "removeLocalMethodParameters": false
+  },
+  "alOutline.defaultDataClassification": "CustomerContent",
+  "alOutline.defaultAppArea": "All",
+  "alOutline.defaultListUsageCategory": "Lists",
+  "alOutline.fixCodeCopMissingParenthesesOnSave": true,
+  "alOutline.pageFieldToolTip": "Specifies the %1.",
+  "alOutline.useBCLinterCopCaseRules": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+  "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+  "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+  "CRS.ObjectNamePrefix": "PTE ",
+  "CRS.OnSaveAlFileAction": "Rename",
+  "CRS.RemovePrefixFromFilename": true
+}

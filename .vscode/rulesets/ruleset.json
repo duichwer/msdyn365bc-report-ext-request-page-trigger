@@ -1,0 +1,66 @@
+{
+    "name": "PTE Ruleset",
+    "description": "PTE Coderegeln",
+    "includedRuleSets": [
+        {
+            "action": "Error",
+            "path": "./Analyzer.ruleset.json"
+        },
+        {
+            "action": "Error",
+            "path": "./AppSourceCop.ruleset.json"
+        },
+        {
+            "action": "Error",
+            "path": "./CodeCop.ruleset.json"
+        },
+        {
+            "action": "Error",
+            "path": "./Compiler.ruleset.json"
+        },
+        {
+            "action": "Error",
+            "path": "./PTECop.ruleset.json"
+        },
+        {
+            "action": "Error",
+            "path": "./UICop.ruleset.json"
+        },
+        {
+            "action": "Error",
+            "path": "./BCLinterCop.ruleset.json"
+        }
+    ],
+    "rules": [
+        {
+            "id": "AS0051",
+            "action": "None",
+            "justification": "Disabled for Customer/PTE Apps: The manifest property 'contextSensitiveHelpUrl' must be specified and contain a meaningful value."
+        },
+        {
+            "id": "AS0084",
+            "action": "None",
+            "justification": "Disabled for PTE Apps: Cloud ID Range"
+        },
+        {
+            "id": "AS0052",
+            "action": "None",
+            "justification": "Ignore: The property 'url' must be set to a valid URL."
+        },
+        {
+            "id": "LC0068",
+            "action": "Hidden",
+            "justification": "Hide: The current object is missing permission xxx for tabledata yyy"
+        },
+        {
+            "id": "LC0084",
+            "action": "Hidden",
+            "justification": "Hide: The return value of the 'xxx' method must be used to improve error handling or provide meaningful feedback to the user."
+        },
+        {
+            "id": "LC0088",
+            "action": "None",
+            "justification": "Disable: Option types should be avoided, use enum if applicable"
+        }
+    ]
+}
